@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="rest.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="processOrder.php" method="post"> 
+      <fieldset id="pInfo">
+          <legend>personal info</legend>
+            <label>First Name </label><br>
+                <input type="text" name="firstname"/><br>
+        
+            <label>Last Name</label><br>
+                <input type="text" id="lastname" name="lastname"/><br>
+            <label>E-mail</label><br>
+                <input type="email" name="email"/><br>
+            <label>Date of Birth</label><br>
+                <input type="date"  name="Date of Birth"/><br>
+      </fieldset>
+
+        <fieldset>
+          <legend id="favFish"> What was your favorite Fish? </legend>
+            <label></label>
+                    <input type="radio" id="Fish" value="Pan-Seared Salmon" required/>Pan-Seared Salmon
+                    <input type="radio" id="Fish" value="Smoked salmon"/>Smoked salmon
+                    <input type="radio" id="Fish" value="Chilean sea bass"/>Chilean sea bass
+                    <input type="radio" id="Fish" value="None of the above"/>
+        </fieldset>
+            <label>Feedback</label><br>
+            <input class="large" style="height:200px;"  type="text"  name="feedback"/><br>    
+            <br>
+            <input type="submit"/>
+    </form>
+</body>
+</html>
