@@ -1,0 +1,44 @@
+body{
+    padding-bottom:70px;
+}
+.one{
+    padding-top: 70px  ;
+    background-color: gray;
+    height: 350px;
+}
+#italics:nth-child(pcs){
+    font-style: italic;
+}
+.stay{
+   width: 100%;
+   overflow: hidden;
+}
+.border{
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+#signUp{
+    padding-top: 70px;
+}
+#financials{
+    padding-top: 70px;
+}
+#aboutUs{
+    padding-top: 70px;
+}
+form{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: lightgrey;
+    
+}
+tfoot tr td{
+    text-align: end;
+    
+}
+.navbar{
+    background-color: black;
+   -moz-text-decoration-color: white;
+
+}
