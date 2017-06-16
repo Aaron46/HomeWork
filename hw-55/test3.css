@@ -1,0 +1,135 @@
+
+
+body{
+    width:80%;
+    font-family: arial,sans-serif;
+    margin: 3em auto;
+}
+nav{
+    top:0;
+    left:0;
+    right:0;
+    box-sizing: border-box;
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    z-index: 1;
+    
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+nav ul{
+     list-style-type: none;
+     padding: 0;
+      width:80%;
+    white-space: nowrap;
+    margin: 0,auto;
+     
+}
+section{
+    
+    padding-top: 3em;
+    position: relative;
+    top: 3em;
+    clear:both;
+}
+
+
+header{
+    background-color:lightgrey;
+    text-align: center;
+    padding: 3em;
+    
+}
+h1{
+    text-transform: uppercase;
+   
+}
+
+@media screen and (min-width: 1000px){
+    
+.flex{
+        display: flex;
+        flex-direction: row;
+}
+
+
+#vid{
+     
+     
+   
+    border-left: 1px solid grey;
+}
+#img2{
+     border-left: 1px solid grey;
+}
+}
+}
+
+img ,video{
+     width: 100%;
+}
+
+#form{
+   display: flex;
+   justify-content: center;
+    background-color: grey;
+   
+    padding-bottom: 3em;
+}
+
+
+form input{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+    margin:0 4;
+}
+table{
+    border-collapse: true;
+    width: 80%;
+    margin: 0 auto;
+
+}
+tbody tr:enth-child(odd){
+    background-color: lightblue;
+}
+tfoot tr:hover,body tr:hover{
+    background-color: turquoise;
+}
+
+td,th{    
+    border: 1px solid black;
+
+}
+td,tfoot th{    
+    text-align: right;
+
+}
+#table{
+    padding-bottom: 3em;
+}
+
+footer{
+    bottom: 0;
+    left:0;
+    right:0;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    
+    
+}
+footer p{
+    color: white;
+    margin: 0,auto;
+}
